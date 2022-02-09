@@ -1,4 +1,6 @@
-// 얕은 복사(Shallow copy), 깊은 복사(Deep copy)
+import _ from 'lodash'
+
+// 깊은 복사(Deep copy)
 const user={
   name:'Heropy',
   age:85,
@@ -6,7 +8,7 @@ const user={
 }
 // const copyUser = Object.assign({}, user)
 // 전개 연사자 사용
-const copyUser = {...user}
+const copyUser = _.cloneDeep(user)
 console.log(copyUser===user)  // true
 
 user.age = 22
