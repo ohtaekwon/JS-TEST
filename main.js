@@ -1,24 +1,12 @@
-import _ from 'lodash'
+import _ from 'lodash' // From node_modules
+import checkType from './getType' // getType.js
+// import {random, user as heropy} from './getRandom'  // getRandom.js
+import * as R from './getRandom'
 
-// 깊은 복사(Deep copy)
-const user={
-  name:'Heropy',
-  age:85,
-  emails:['ohtk92@naver.com']
-}
-// const copyUser = Object.assign({}, user)
-// 전개 연사자 사용
-const copyUser = _.cloneDeep(user)
-console.log(copyUser===user)  // true
-
-user.age = 22
-console.log('user',user) // {name: 'Heropy', age: 22, emails: Array(1)}
-console.log('copyuser',copyUser) // {name: 'Heropy', age: 22, emails: Array(1)}
-
-console.log('---------')
-console.log('---------')
-
-user.emails.push('neo@zillinks.com')
-console.log(user.emails===copyUser.emails)
-console.log('user', user)
-console.log('copyUser', copyUser)
+console.log(_.camelCase('the hello world'))
+console.log(checkType([1,2,3]))
+// console.log(random(), random())
+// console.log(heropy)
+console.log(R)
+console.log(R.user)
+console.log(R.default)
