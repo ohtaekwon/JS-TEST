@@ -22,3 +22,5 @@ console.log(localStorage.getItem('user'))
 // 4. js에서 활용하기 좋은 객체 데이터로 변환하기 위해서는, parse
 // 4-1 pasre()
 console.log(JSON.parse(localStorage.getItem('user')))
+
+// 5.
