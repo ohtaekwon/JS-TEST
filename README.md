@@ -9,7 +9,7 @@
     - parcel-bundler는 개발하는 용도로만 사용할 것이기 때문에 뒤에 `--save-dev`를 추가한다. 
     - `--save-dev` 이것은 `-D`와 같다.
         - **npm install parcel-bundler -D**
-3. `package.json` 파일로 이동
+3. 터미널에서 나온 후 `package.json` 파일로 이동
      - `"script"` 명령문에 `"test"`문을 삭제한 후 다음과 같이 작성.
      - **"DEV":"parcel index.html"**
         - 이 명령어는 local에 개발서버를 여는 명령어
@@ -18,10 +18,12 @@
 4. `index.html`파일을 만든다.
     - `script` 파일과 연결
     - `main.js`
+5. 터미널에 명령어 입력
+    - **npm run dev** 작성하면 로컬 서버가 열린다.
+
 
 <br>
 
-
 ## 참고 사이트
----
+
 #### - [ECMA스크립트](https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
