@@ -1,3 +1,13 @@
+// 비교 연산자(comparison operator)
+console.log('비교 연산자')
+const b = 1
+const c = 1
+console.log(b===c)
+
+function isEqual(x,y){
+  return x === y
+}
+console.log(b>=c)
 
 // 논리 연산자(logical operator)
 const a = 1 === 1
