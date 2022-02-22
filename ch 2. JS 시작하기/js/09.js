@@ -1,11 +1,7 @@
-# 09. 변수 유효범위
+// 변수 유효범위(Variable Scope)
+// var, let, const
 
-### 9.1. 변수 유효범위(Variable Scope)
-
-#### 9.1.1 var, let, const - 유효한 범위
-
-
-```js
+// 유효한 범위
 function scope(){
   if (true){
     const a = 123
@@ -13,11 +9,8 @@ function scope(){
   }
 }
 scope() // 123
-```
 
-#### 9.1.2 var, let, const - 유효하지 않은 범위
-
-```js
+// 유효하지 않은 범위
 function scope(){
   if (true){
     const a = 123
@@ -25,9 +18,7 @@ function scope(){
   console.log(a)
 }
 scope() // Uncaught ReferenceError: a is not defined
-```
 
-```js
 function scope(){
   console.log(a)
 
@@ -36,17 +27,13 @@ function scope(){
   }
 }
 scope() // Uncaught ReferenceError: a is not defined
-```
 
-#### 9.1.3 var, let, const - 함수 레벨의 유효 범위
-
-```js
+// 함수 범위의 블록 레벨 - var
 function scope(){
   console.log(a)
   if (true){
     var a = 123
   }
 }
-scope() // 123
+scope() // undefined
 
-```

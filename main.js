@@ -2,9 +2,9 @@
 // var, let, const
 
 function scope(){
+  console.log(a)
   if (true){
-    const a = 123
-    console.log(a)
+    let a = 123
   }
 }
 scope() // 123
