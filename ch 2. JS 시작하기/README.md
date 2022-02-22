@@ -47,3 +47,7 @@
       - 9.1.2 var, let, const - 유효하지 않은 범위
       - 9.1.3 var, let, const - 함수 레벨의 유효 범위
 - [10.형 변환](https://github.com/ohtaekwon/JS-TEST/blob/master/ch%202.%20JS%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/10_%ED%98%95%20%EB%B3%80%ED%99%98.md)
+  - 10.1. 형 변환(Type conversion)
+      - 10.1.1 동등 연산자
+      - 10.1.2 Truthy(참 같은 값)
+      - 10.1.3 Falsy(거짓 같은 값)
