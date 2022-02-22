@@ -20,8 +20,7 @@
   - 4.2. 논리 연산자(logical operator)
       - 4.2.1 논리 연산자
       - 4.2.2 AND(&&), OR(||), NOT(!) 연산자
-- [05.삼항연산자](https://github.com/ohtaekwon/JS-TEST/blob/master/ch%202.
-%20JS%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/05_%EC%82%BC%ED%95%AD%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
+- [05.삼항연산자](https://github.com/ohtaekwon/JS-TEST/blob/master/ch%202.%20JS%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/05_%EC%82%BC%ED%95%AD%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
   - 5.1. 삼항 연산자(ternary operator)
       - 5.1.1. 기본식
       - 5.1.2. 삼항 연산식
