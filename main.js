@@ -1,25 +1,41 @@
-// 형 변환(Type conversion)
+// // 함수 복습
+// function sum(x,y){
+//   return x+y
 
-const a = 1
-const b = '1'
+// }
+// const a = sum(1,3)
+// console.log(a)  // 4
+// const b = sum(4,12)
+// console.log(b)  // 16
+// console.log(a+b)  // 20
 
-// 비교 연산자
-console.log(a===b)  // false
+// const sum = function(x,y){
+//   return x + y
+// }
+// sum(1,3)
 
-// 동등 연산자
-console.log(a==b)   // true
+
+// function sum(x,y){
+ 
+//   return x+y
+//   console.log(x)
+
+// }
+// // 1
+// sum(1,3)
+
+// function sum(x,y){
+//   if (x<2){
+//     return
+//   }
+//   return x + y
+// }
+// console.log(sum(1,3)) // undefined
 
 
-// Truthy(참 같은 값)
-// true, {}, [], 1, 2, 'false`, -12, '3.14' ...
-if ('false'){
-  console.log(123)
+function sum(){
+  console.log(arguments)
+  return arguments[0] + arguments[1]
 }
-// Falsy(거짓 같은 값)
-// fslse, '', null, undefined, 0, -0, NaN
-
-if (null){
-  console.log(123)
-}
-
-console.log(1 + undefined) // NaN
+console.log(sum(7,3)) 
+// Arguments(2) [7, 3, callee: ƒ, Symbol(Symbol.iterator): ƒ]
