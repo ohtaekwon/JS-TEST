@@ -37,5 +37,5 @@ function sum(){
   console.log(arguments)
   return arguments[0] + arguments[1]
 }
-console.log(sum(7,3)) 
+console.log(sum(7,3)) // 10
 // Arguments(2) [7, 3, callee: ƒ, Symbol(Symbol.iterator): ƒ]
