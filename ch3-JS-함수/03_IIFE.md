@@ -1,6 +1,6 @@
 # 03. IIFE (Immediately-Invoked Function Expression)
 
-### 2.1. 즉시 실행 함수
+### 3.1. 즉시 실행 함수
 
 ```js
 // 즉시실행함수
